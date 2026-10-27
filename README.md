@@ -9,9 +9,12 @@ A legfrissebb verzió a [Releases](../../releases/latest) oldalon érhető el:
 
 | Rendszer | Fájl |
 | --- | --- |
-| Windows | `GOAT-Setup-<verzió>-x64.exe` |
-| macOS (Apple Silicon és Intel) | `GOAT-<verzió>-macos-universal.dmg` |
-| Linux | `GOAT-<verzió>-linux-<arch>.deb` / `.rpm` / `.AppImage` |
+| Windows | `GOAT_<verzió>_x64-setup.exe` |
+| macOS (Apple Silicon és Intel) | `GOAT_<verzió>_universal.dmg` |
+| Linux | `GOAT_<verzió>_amd64.deb` / `.AppImage`, `GOAT-<verzió>-1.x86_64.rpm` |
+
+Csak az első telepítéshez kell letölteni. A `.sig`, `.app.tar.gz` és `latest.json` fájlokat az
+alkalmazás beépített frissítője használja.
 
 A telepítés után az alkalmazás a háttérben automatikusan letölti az új verziókat, és a következő
 újraindításkor telepíti őket. Frissítés után egy ablak mutatja meg, mi változott.
